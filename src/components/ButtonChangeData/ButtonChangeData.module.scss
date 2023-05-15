@@ -1,0 +1,12 @@
+.AddContact {
+  display: flex;
+  gap: 7px;
+  button {
+    padding: 12px 46px 12px 46px;
+    border: 2px solid rgb(145, 174, 236);
+    border-radius: 8px;
+    &:active {
+      background-color: rgb(145, 174, 236);
+    }
+  }
+}

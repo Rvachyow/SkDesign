@@ -1,0 +1,29 @@
+.tableitem {
+  position: relative;
+  width: 100%;
+  border-top: 1px solid #eaf0fa;
+  color: #122945;
+  height: 64px;
+  cursor: pointer;
+  &:hover {
+    background-color: #f1f4f9;
+    box-shadow: 0px 4px 5px rgb(185, 182, 182);
+  }
+  td {
+    text-align: center;
+  }
+}
+.description {
+  width: 100%;
+  border-top: 1px solid #9ab9eb;
+  color: #122945;
+  height: 64px;
+  
+  td {
+    background-color: #8ebbf3;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+  }
+}
